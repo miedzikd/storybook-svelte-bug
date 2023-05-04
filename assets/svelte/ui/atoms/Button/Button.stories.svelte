@@ -12,6 +12,10 @@
                 'danger',
             ],
         },
+        disabled: {
+            control: 'boolean',
+            defaultValue: false,
+        },
         'on:click': { action: 'click', description: 'event' },
     };
 
